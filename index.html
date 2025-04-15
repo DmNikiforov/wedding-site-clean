@@ -38,31 +38,49 @@ backface-visibility: hidden;
 }
 
 </style><style>
+/* Global resets and scaling */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Images should scale properly */
 img {
   max-width: 100%;
   height: auto;
 }
-.tn-atom, .tn-elem {
-  box-sizing: border-box;
-  word-break: break-word;
+
+/* Typography */
+.tn-atom {
+  word-wrap: break-word;
 }
-body {
-  overflow-x: hidden;
-}
-@media only screen and (max-width: 767px) {
+
+/* Responsive enhancements */
+@media only screen and (max-width: 768px) {
   .tn-elem {
     zoom: 1 !important;
     transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    width: 100% !important;
     max-width: 100% !important;
-    width: auto !important;
-    left: 0 !important;
-    right: 0 !important;
     margin: 0 auto !important;
   }
   .tn-atom {
     font-size: 14px !important;
-    line-height: 1.4 !important;
     padding: 0 10px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tn-atom {
+    font-size: 16px !important;
   }
 }
 </style></head> <body class="t-body" style="margin: 0px;"> <!--allrecords--> <div class="t-records t-records_animated t-records_visible" data-hook="blocks-collection-content-node" data-tilda-formskey="16761bfe3cf8d07a15728ed3a6397623" data-tilda-page-alias="daniilanddaria/package2" data-tilda-page-id="60634973" data-tilda-project-id="6397623" data-tilda-root-zone="com" id="allrecords" style="overflow: hidden;"> <div class="r t-rec" data-animationappear="off" data-record-type="131" id="rec845224518" style=" "> <!-- T123 --> <div class="t123"> <div class="t-container_100"> <div class="t-width t-width_100"> <!-- nominify begin --> <style>
